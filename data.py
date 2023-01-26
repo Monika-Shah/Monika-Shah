@@ -7,10 +7,7 @@ st.set_page_config(layout="wide")
 
 
 
-# Convert Pass into hash format
 
-User = st.sidebar.text_input("User")
-Pasw = st.sidebar.text_input("Password", type='password')
 
 @st.cache()
 def get_data():
