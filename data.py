@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 
 @st.cache()
 def get_data():
-    df = pd.read_csv("F:\\Divyraj\\churn-bigml-80.csv")
+    df = pd.read_csv("churn-bigml-80.csv")
     return df
 df = get_data()
 
